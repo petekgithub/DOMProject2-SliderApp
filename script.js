@@ -84,7 +84,7 @@ function init(settings) {
             //random index
             do {
                 index = Math.floor(Math.random()*slaytCount);
-            }while(index == prev)
+            }while(index == prev) // üstüste aynı indeksler gelmesin
             prev = index;
             
         } else {
